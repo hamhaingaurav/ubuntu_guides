@@ -1,11 +1,14 @@
+# Packages commonly used in ubuntu for me-
 vlc deluge telegram-desktop uget synaptic xfce4-appmenu-plugin ufw gufw tlp ntp
 arc-theme
 gparted gmartcontrol ntfs-config gnome-disk-utility dconf-editor git
 kazam kdenlive audacity okular youtube-dl winff handbrake gbrainy jupyter-notebook
 
+# Update the system and much more
 sudo apt-get update --fix-missing 
 sudo apt-get install -f build-essential
 
+# some important and useful repos for ubuntu
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp
 sudo add-apt-repository ppa:audio-recorder/ppa
 sudo add-apt-repository ppa:quiterss/quiterss
@@ -13,4 +16,6 @@ sudo add-apt-repository ppa:quiterss/quiterss
 sqlite mysql mysql-client mysql-server mysql-utilities mysql-workbench
 compizconfig-settings-manager compiz-plugins* compiz 
 
+
+# to add a ntfs drive into ubuntu
 UUID=E21EF2021EF1CF91   /media/gaurav/Data      ntfs-3g defaults,uid=1000,windows_names,locale=en_US.utf8       0       0
